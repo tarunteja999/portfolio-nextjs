@@ -124,10 +124,12 @@ export default function Page() {
         <div className="container">
           <h2 className="text-2xl font-semibold mb-6">Contact</h2>
           <div className="card">
-            <p className="text-sm text-gray-300">
-              Email: <a href="mailto:akkipallitarunteja@gmail.com">akkipallitarunteja@gmail.com</a> ·
-              LinkedIn: <a href="https://www.linkedin.com/in/tarun-teja-a-a84505215/" target="_blank" rel="noreferrer">tarun-teja</a>
-            </p>
+           <p className="text-sm text-gray-300">
+             Email: <a href="mailto:akkipallitarunteja@gmail.com">akkipallitarunteja@gmail.com</a> ·
+             LinkedIn: <a href="https://www.linkedin.com/in/tarun-teja-a-a84505215/" target="_blank" rel="noreferrer">tarun-teja</a> ·
+             <a className="tag" href="/Tarun-Teja-Akkipalli-Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+           </p>
+
           </div>
         </div>
       </section>
