@@ -7,8 +7,11 @@ export default function Page() {
   return (
     <main>
       <Navbar />
+
+      {/* Hero Section */}
       <section className="section">
         <div className="container grid md:grid-cols-2 gap-8 items-center">
+          {/* Left side: Intro */}
           <div>
             <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
               I design & ship <span className="text-purple-300">scalable</span> web apps.
@@ -23,36 +26,38 @@ export default function Page() {
               <a className="tag" href="#projects">Projects</a>
             </div>
           </div>
-        <div className="space-y-4">
-  {/* Profile image card */}
-  <div className="card p-0 overflow-hidden">
-    <Image
-      src="/profile.jpg"
-      alt="Tarun Teja Akkipalli"
-      width={640}
-      height={640}
-      priority
-      className="w-full h-64 object-cover"
-    />
-  </div>
 
-  {/* Snapshot card */}
-  <div className="card">
-    <h3 className="font-semibold mb-2">Snapshot</h3>
-    <ul className="text-sm text-gray-300 list-disc ml-5 space-y-2">
-      <li>React, Next.js, TypeScript</li>
-      <li>Node.js/NestJS, Spring Boot</li>
-      <li>PostgreSQL, MongoDB, Redis</li>
-      <li>AWS, Docker, Kubernetes, CI/CD</li>
-      <li>Secure auth (OAuth2/OIDC), OWASP</li>
-      <li>Testing: Jest, RTL, Cypress, JUnit</li>
-    </ul>
-  </div>
-</div>
+          {/* Right side: Profile + Snapshot */}
+          <div className="space-y-4">
+            {/* Profile image card */}
+            <div className="card p-0 overflow-hidden">
+              <Image
+                src="/profile.jpg"
+                alt="Tarun Teja Akkipalli"
+                width={640}
+                height={640}
+                priority
+                className="w-full h-64 object-cover"
+              />
+            </div>
 
+            {/* Snapshot card */}
+            <div className="card">
+              <h3 className="font-semibold mb-2">Snapshot</h3>
+              <ul className="text-sm text-gray-300 list-disc ml-5 space-y-2">
+                <li>React, Next.js, TypeScript</li>
+                <li>Node.js/NestJS, Spring Boot</li>
+                <li>PostgreSQL, MongoDB, Redis</li>
+                <li>AWS, Docker, Kubernetes, CI/CD</li>
+                <li>Secure auth (OAuth2/OIDC), OWASP</li>
+                <li>Testing: Jest, RTL, Cypress, JUnit</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
+      {/* Projects Section */}
       <section id="projects" className="section">
         <div className="container">
           <h2 className="text-2xl font-semibold mb-6">Projects</h2>
@@ -61,7 +66,7 @@ export default function Page() {
               title="SaaS Starter (Multi-tenant)"
               description="Next.js app with Node/NestJS API, PostgreSQL, Redis cache, JWT/OAuth2, Dockerized, CI/CD on GitHub Actions."
               tech={["Next.js", "Node.js", "NestJS", "PostgreSQL", "Redis", "Docker", "GitHub Actions"]}
-              demo="https://vercel.com/tarunteja999s-projects"
+              demo="https://portfolio-nextjs-ub2j.vercel.app/"
               code="https://github.com/tarunteja999/saas-starter-api"
             />
             <ProjectCard
@@ -75,6 +80,7 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Experience Section */}
       <section id="experience" className="section">
         <div className="container">
           <h2 className="text-2xl font-semibold mb-6">Experience</h2>
@@ -99,6 +105,7 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Certifications Section */}
       <section id="certs" className="section">
         <div className="container">
           <h2 className="text-2xl font-semibold mb-6">Certifications</h2>
@@ -112,6 +119,7 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Contact Section */}
       <section id="contact" className="section">
         <div className="container">
           <h2 className="text-2xl font-semibold mb-6">Contact</h2>
