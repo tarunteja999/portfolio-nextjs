@@ -35,7 +35,6 @@ It showcases my projects, experience, and certifications in a clean, responsive 
 
 ## 🔗 Links
 - **Live Demo:** [portfolio-nextjs-ub2j.vercel.app](https://portfolio-nextjs-ub2j.vercel.app)
-- **Resume PDF:** Coming soon
 - **GitHub Profile:** [@tarunteja999](https://github.com/tarunteja999)
 
 ---
