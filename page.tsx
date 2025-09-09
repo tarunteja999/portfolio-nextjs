@@ -13,12 +13,12 @@ export default function Page() {
               I design & ship <span className="text-purple-300">scalable</span> web apps.
             </h1>
             <p className="text-gray-300 mb-6">
-              Full‑stack developer focused on React/Next.js, Node/Spring, PostgreSQL/MongoDB and AWS.
-              I own features end‑to‑end: architecture → build → test → deploy → observe.
+              Full-stack developer focused on React/Next.js, Node/Spring, PostgreSQL/MongoDB and AWS.
+              I own features end-to-end: architecture → build → test → deploy → observe.
             </p>
             <div className="space-x-3">
               <a className="tag" href="https://www.linkedin.com/in/tarun-teja-a-a84505215/" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a className="tag" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a className="tag" href="https://github.com/tarunteja999" target="_blank" rel="noreferrer">GitHub</a>
               <a className="tag" href="#projects">Projects</a>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Page() {
               description="Next.js app with Node/NestJS API, PostgreSQL, Redis cache, JWT/OAuth2, Dockerized, CI/CD on GitHub Actions."
               tech={["Next.js", "Node.js", "NestJS", "PostgreSQL", "Redis", "Docker", "GitHub Actions"]}
               demo="#"
-              code="#"
+              code="https://github.com/tarunteja999/saas-starter-api"
             />
             <ProjectCard
               title="Event-Driven Checkout"
@@ -62,10 +62,10 @@ export default function Page() {
         <div className="container">
           <h2 className="text-2xl font-semibold mb-6">Experience</h2>
           <div className="card mb-4">
-            <h3 className="font-semibold">Procore Technologies — Full‑Stack Developer</h3>
+            <h3 className="font-semibold">Procore Technologies — Full-Stack Developer</h3>
             <p className="text-sm text-gray-300">Jan 2025 – Present · Toronto, ON</p>
             <ul className="text-sm text-gray-300 list-disc ml-5 mt-2 space-y-2">
-              <li>Architected user‑verification microservices on AWS EKS; improved p95 latency by 25%.</li>
+              <li>Architected user-verification microservices on AWS EKS; improved p95 latency by 25%.</li>
               <li>Delivered React/Redux SPA with SSR/SSG; improved LCP by 30%.</li>
               <li>Introduced tracing & SLOs; reduced MTTR from 45m → 15m.</li>
             </ul>
