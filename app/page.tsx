@@ -22,7 +22,7 @@ export default function Page() {
             </p>
             <div className="space-x-3">
               <a className="tag" href="https://www.linkedin.com/in/tarun-teja-a-a84505215/" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a className="tag" href="https://github.com/tarunteja999" target="_blank" rel="noreferrer">GitHub</a>
+              <a className="tag" aria-label="Tarun's GitHub" href="https://github.com/tarunteja999" target="_blank" rel="noreferrer">GitHub</a>
               <a className="tag" href="#projects">Projects</a>
             </div>
           </div>
