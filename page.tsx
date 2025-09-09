@@ -44,7 +44,7 @@ export default function Page() {
               title="SaaS Starter (Multi-tenant)"
               description="Next.js app with Node/NestJS API, PostgreSQL, Redis cache, JWT/OAuth2, Dockerized, CI/CD on GitHub Actions."
               tech={["Next.js", "Node.js", "NestJS", "PostgreSQL", "Redis", "Docker", "GitHub Actions"]}
-              demo="#"
+              demo="https://vercel.com/tarunteja999s-projects"
               code="https://github.com/tarunteja999/saas-starter-api"
             />
             <ProjectCard
