@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import ProjectCard from "../components/ProjectCard"
 import Footer from "../components/Footer"
+import Image from "next/image"
 
 export default function Page() {
   return (
@@ -22,17 +23,33 @@ export default function Page() {
               <a className="tag" href="#projects">Projects</a>
             </div>
           </div>
-          <div className="card">
-            <h3 className="font-semibold mb-2">Snapshot</h3>
-            <ul className="text-sm text-gray-300 list-disc ml-5 space-y-2">
-              <li>React, Next.js, TypeScript</li>
-              <li>Node.js/NestJS, Spring Boot</li>
-              <li>PostgreSQL, MongoDB, Redis</li>
-              <li>AWS, Docker, Kubernetes, CI/CD</li>
-              <li>Secure auth (OAuth2/OIDC), OWASP</li>
-              <li>Testing: Jest, RTL, Cypress, JUnit</li>
-            </ul>
-          </div>
+        <div className="space-y-4">
+  {/* Profile image card */}
+  <div className="card p-0 overflow-hidden">
+    <Image
+      src="/profile.jpg"
+      alt="Tarun Teja Akkipalli"
+      width={640}
+      height={640}
+      priority
+      className="w-full h-64 object-cover"
+    />
+  </div>
+
+  {/* Snapshot card */}
+  <div className="card">
+    <h3 className="font-semibold mb-2">Snapshot</h3>
+    <ul className="text-sm text-gray-300 list-disc ml-5 space-y-2">
+      <li>React, Next.js, TypeScript</li>
+      <li>Node.js/NestJS, Spring Boot</li>
+      <li>PostgreSQL, MongoDB, Redis</li>
+      <li>AWS, Docker, Kubernetes, CI/CD</li>
+      <li>Secure auth (OAuth2/OIDC), OWASP</li>
+      <li>Testing: Jest, RTL, Cypress, JUnit</li>
+    </ul>
+  </div>
+</div>
+
         </div>
       </section>
 
